@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.login{
+    width: 100%;
+    margin: 20px 0 ;
+    /* background-color: #F7F7F7; */
+}
+.login_1{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.login_1_p1{
+    margin: 20px 0;
+    border-left: 5px #FE5341 solid;
+    text-indent: 20px;
+    font-size: 20px;
+    /* font-weight: 600; */
+}
+.login_1_p1>span{
+    float: right;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.login_1_div1{
+    width: 315px;
+    margin: 0 auto;
+}
+.login_1_div1>p{
+    overflow: hidden;
+}
+.login_1_div1>p>i{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    /* background-color: #555555; */
+}
+.login_1_div1>p>input{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-indent: 20px;
+}
+.login_1_div1>p>.yzm{
+    width: 170px;
+}
+.hqyzm{
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    top: 10px;
+    right: 12px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #FE5341;
+    
+}
+
+.hqyzm:hover{
+    cursor: pointer;
+    background-color: #FD301B;
+}
+.login_1_p2{
+    position: relative;
+
+}
+.login_1_div1>.login_1_p3{
+    margin-top: 0px;
+    font-size: 13px;
+    color: #555555;
+    position: relative;
+}
+.login_1_div1>.login_1_p3>input{
+    width: 14px;
+    margin-top: 0px;
+}
+.login_1_p3_sp1{
+    position: absolute;
+    top: 11px;
+    left: 20px;
+}
+.login_1_p3_sp2{
+    position: absolute;
+    top: 11px;
+    left: 240px;
+}
+a{
+    text-decoration: none;
+    color: #555555;
+}
+button{
+    width: 300px;
+    height: 40px;
+    background-color: #FE5341;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 900;
+}
+button:hover{
+    background-color: #FD301B;
+    cursor: pointer;
+}
