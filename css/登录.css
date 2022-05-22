@@ -8,16 +8,17 @@
 .login{
     width: 100%;
     margin: 20px 0 ;
-    background-color: #F7F7F7;
+    /* background-color: #F7F7F7; */
 }
 .login_1{
     width: 1000px;
-    height: 400px;
+    height: 500px;
     margin: 0 auto;
     background-color: #FFFFFF;
     border: 1px #ccc solid;
     border-radius: 10px;
     box-sizing: border-box;
+    margin-top: 50px;
 }
 .login_1_p1{
     margin: 20px 0;
@@ -38,10 +39,16 @@
 .login_1_div1>p{
     overflow: hidden;
 }
+.login_1_div1>p>i{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    /* background-color: #555555; */
+}
 .login_1_div1>p>input{
     width: 300px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
     outline: none;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -57,7 +64,7 @@
     height: 40px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    top: 20px;
+    top: 10px;
     right: 12px;
     text-align: center;
     line-height: 40px;
