@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* --------------------顶部------------------------------------------------------------------------------------------------ */
+#top{
+    width: 1000px;
+    height: 80px;
+    margin: 0px auto;
+}
+#topula{
+    list-style: none;
+    float: left;
+}
+#topula>li{
+    float: left;
+    font-size: 20px;
+    margin-right: 50px;
+}
+#topula>li:nth-of-type(1){
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+}
+#topula>li:nth-of-type(1)>img{
+    width: 150px;
+    height: 60px;
+}
+#topula>li>a{
+    text-decoration: none;
+    color: black;
+}
+#topula>li>a:hover{
+    color: red;
+}
+#topula>li{
+    height: 80px;
+    line-height: 80px;
+}
+#topula>li:nth-of-type(6)>a{
+    color: red;
+}
+#topulb{
+    float: right;
+
+}
+#topulb>li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#topulb>li:nth-of-type(1)>input{
+    width: 200px;
+    height: 30px;
+}
+#topulbtn{
+    width: 50px;
+    height: 30px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+/* -------------------------------阴影------------------------------ */
+#yinying{
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(white,rgb(212, 210, 210));
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+img:hover{
+    animation: img 1.6s steps(2,end) infinite;
+}
+@keyframes img {
+    0% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 0.3;
+    }
+    30% {
+        opacity: 0.4;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    50% {
+       opacity: 0.6;
+    }
+   70%{
+       opacity: 0.5;
+   }
+   80%{
+       opacity: 0.4;
+   }
+   90%{
+       opacity: 0.3;
+   }
+     100% {
+        opacity: 0.2;
+     }
+
+}
+
+/* ------------------------体验报告--------------------------------- */
+#tiyan{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+/* --------------------------------------------------------------- */
+#zuixin{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#zuixina{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    color: red;
+    cursor: pointer;
+    border-bottom: 3px solid red;
+}
+#zuixinb{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(138, 135, 135);
+}
+/* -----------------------------------hui------------------------ */
+#hui{
+    width: 100%;
+    height: 2700px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2px;
+    background-color: #f7f7f7;
+}
+/* -----------------------------zuoa----------------------------------- */
+#zuoa{
+    width: 700px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 454px;
+    position: relative;
+    border-radius: 10px;
+}
+#zuoa>img{
+    width: 700px;
+    height: 420px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#zuoaa{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(250, 247, 247,0.9);
+}
+#zuoaa>p:nth-of-type(1){
+    font-size: 20px;
+}
+#zuoaa>p:nth-of-type(2){
+    margin-top: 20px;
+    color: rgb(191, 186, 186);
+}
+#zuoaaa{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#zuoaaa>img{
+    width: 20px;
+    height: 20px;
+}
+#zuoaab{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+#zuoaac{
+    margin-left: 430px;
+}
+/* ----------------------------zuoaxia-------------------------------- */
+#zuoaxia{
+    width: 700px;
+    height: 50px;
+    color: rgb(179, 173, 173);
+    border: 1px solid rgb(205, 203, 203);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-left: 454px;
+}
+/* -----------------------------zuob----------------------------------- */
+#zuob{
+    width: 700px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 454px;
+    position: relative;
+    border-radius: 10px;
+}
+#zuob>img{
+    width: 700px;
+    height: 420px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#zuoba{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(250, 247, 247,0.9);
+}
+#zuoba>p:nth-of-type(1){
+    font-size: 20px;
+}
+#zuoba>p:nth-of-type(2){
+    margin-top: 20px;
+    color: rgb(191, 186, 186);
+}
+#zuobaa{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#zuobaa>img{
+    width: 20px;
+    height: 20px;
+}
+#zuobab{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+#zuobac{
+    margin-left: 430px;
+}
+/* ----------------------------zuobxia-------------------------------- */
+#zuobxia{
+    width: 700px;
+    height: 50px;
+    color: rgb(179, 173, 173);
+    border: 1px solid rgb(205, 203, 203);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-left: 454px;
+}
+/* -----------------------------zuoc----------------------------------- */
+#zuoc{
+    width: 700px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 454px;
+    position: relative;
+    border-radius: 10px;
+}
+#zuoc>img{
+    width: 700px;
+    height: 420px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#zuoca{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(250, 247, 247,0.9);
+}
+#zuoca>p:nth-of-type(1){
+    font-size: 20px;
+}
+#zuoca>p:nth-of-type(2){
+    margin-top: 20px;
+    color: rgb(191, 186, 186);
+}
+#zuocaa{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#zuocaa>img{
+    width: 20px;
+    height: 20px;
+}
+#zuocab{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+#zuocac{
+    margin-left: 430px;
+}
+/* ----------------------------zuocxia-------------------------------- */
+#zuocxia{
+    width: 700px;
+    height: 50px;
+    color: rgb(179, 173, 173);
+    border: 1px solid rgb(205, 203, 203);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-left: 454px;
+}
+/* -----------------------------zuod----------------------------------- */
+#zuod{
+    width: 700px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 454px;
+    position: relative;
+    border-radius: 10px;
+}
+#zuod>img{
+    width: 700px;
+    height: 420px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#zuoda{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(250, 247, 247,0.9);
+}
+#zuoda>p:nth-of-type(1){
+    font-size: 20px;
+}
+#zuoda>p:nth-of-type(2){
+    margin-top: 20px;
+    color: rgb(191, 186, 186);
+}
+#zuodaa{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#zuodaa>img{
+    width: 20px;
+    height: 20px;
+}
+#zuodab{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+#zuodac{
+    margin-left: 430px;
+}
+/* ----------------------------zuodxia-------------------------------- */
+#zuodxia{
+    width: 700px;
+    height: 50px;
+    color: rgb(179, 173, 173);
+    border: 1px solid rgb(205, 203, 203);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-left: 454px;
+}
+/* -----------------------------zuoe----------------------------------- */
+#zuoe{
+    width: 700px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 454px;
+    position: relative;
+    border-radius: 10px;
+}
+#zuoe>img{
+    width: 700px;
+    height: 420px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#zuoea{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(250, 247, 247,0.9);
+}
+#zuoea>p:nth-of-type(1){
+    font-size: 20px;
+}
+#zuoea>p:nth-of-type(2){
+    margin-top: 20px;
+    color: rgb(191, 186, 186);
+}
+#zuoeaa{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#zuoeaa>img{
+    width: 20px;
+    height: 20px;
+}
+#zuoeab{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+#zuoeac{
+    margin-left: 430px;
+}
+/* ----------------------------zuoexia-------------------------------- */
+#zuoexia{
+    width: 700px;
+    height: 50px;
+    color: rgb(179, 173, 173);
+    border: 1px solid rgb(205, 203, 203);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-left: 454px;
+}
+/* ------------------------------jiazai--------------------------------------- */
+/* -----------------------------------点击加载更多--------------------------- */
+#jiazai{
+    width: 700px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 454px;
+    text-align: center;
+}
+#jiazaiimg2{
+    display: inline-block;
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+    transform: translate(0px ,-7px);
+}
+#jiazaiimg1{
+    display: inline-block;
+    width: 20px ;
+    height: 20px;
+    background: url(../img/more.png) no-repeat;
+    cursor: pointer;
+}
+/* -----------------------------------------you------------------------ */
+#you{
+    width: 270px;
+    height: 720px;
+    position: absolute;
+    top: 30px;
+    left: 1200px;
+}
+#you>p:nth-of-type(1)>span{
+    display: inline-block;
+    width:4px;
+    height: 20px;
+    background-color: red;
+    margin-right: 20px;
+    transform: translate(0px,5px);
+}
+#you>img{
+    margin-top: 30px;
+}
+#you>p:nth-of-type(2){
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#you>p:nth-of-type(3){
+    font-size: 13px;
+    color: #c3bfbf;
+    margin-top: 10px;
+}
+#you>p:nth-of-type(4){
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:20px;
+}
+#you>p:nth-of-type(5){
+    font-size: 13px;
+    color: #c3bfbf;
+    margin-top: 10px;
+}
+#you>p:nth-of-type(6){
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#you>p:nth-of-type(7){
+    font-size: 12px;
+    color: #c3bfbf;
+    margin-top: 10px;
+}
+#you>p:nth-of-type(8){
+    margin-top: 30px;
+}
+#you>p:nth-of-type(8)>span{
+    display: inline-block;
+    width: 4px;
+    height: 20px;
+    background-color: red;
+    margin-right: 20px;
+    transform: translate(0px,5px);
+}
+/* ----------------------------------------底部--------------------------------- */
+#foot{
+    width: 100%;
+    height: 400px;
+    background-color: #505050;
+}
+#footer{
+    width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+}
+#foota{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-top: 40px;
+}
+#foota>img{
+    width: 160px;
+    height: 160px;
+}
+/* ---------------------------footb------------------------------ */
+#footb{
+    width: 140px;
+    height: 160px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#footula>li:nth-of-type(1){
+    width: 100%;
+    height: 50px;
+    list-style: none;
+}
+#footula>li:nth-of-type(1)>img{
+    width: 100%;
+    height: 50px;
+}
+#footula>li:nth-of-type(2){
+    margin-top: 20px;
+    font-size: 12px;
+    list-style: none;
+    color: rgb(171, 168, 168);
+}
+#footula>li:nth-of-type(3){
+    font-size: 12px;
+    margin-top: 20px;
+    list-style: none;
+    color: rgb(171, 168, 168);
+}
+/* -----------------------------footc-------------------------------- */
+#footc{
+    width: 100px;
+    height: 160px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footc>ul>li:nth-of-type(1){
+    color: white;
+    font-size: 20px;
+    list-style: none;
+}
+#footc>ul>li:nth-of-type(2){
+    list-style: none;
+    margin-top: 40px;
+   
+}
+#footc>ul>li:nth-of-type(2)>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 174, 174);
+}
+#footc>ul>li:nth-of-type(2)>a:hover{
+    color: red;
+}
+#footc>ul>li:nth-of-type(3){
+    list-style: none;
+    
+}
+#footc>ul>li:nth-of-type(3)>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 174, 174);
+}
+#footc>ul>li:nth-of-type(3)>a:hover{
+    color: red;
+}
+/* ---------------------------footd---------------------------- */
+#footd{
+    width: 150px;
+    height: 220px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footd>p{
+    color: white;
+    font-size: 20px;
+}
+#footda{
+    width: 150px;
+    height: 170px;
+    margin-top: 20px;
+}
+#footda>ul>li{
+    list-style: none;
+    float: left;
+    width: 75px;
+}
+#footda>ul>li>a{
+    text-decoration: none;
+    color: #c3bfbf;
+    font-size: 12px;
+}
+#footda>ul>li>a:hover{
+    color: red;
+}
+/* ----------------------------------foote---------------------------- */
+#foote{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#foote>p{
+    color: white;
+    font-size: 20px;
+}
+#foote>ul{
+    margin-top: 20px;
+}
+#foote>ul>li{
+    list-style: none;
+}
+#foote>ul>li>a{
+    text-decoration: none;
+    color: #cac6c6;
+    font-size: 12px;
+}
+#foote>ul>li>a:hover{
+    color: red;
+}
+/* -------------------------------footf--------------------------- */
+#footf{
+    width: 170px;
+    height: 140px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#footf>p{
+    color: white;
+    font-size: 20px;
+}
+#footf>ul{
+    margin-top:20px;
+}
+#footf>ul>li{
+    list-style: none;
+}
+#footf>ul>li>a{
+    text-decoration: none;
+    color: #c3bfbf;
+    font-size: 12px;
+
+}
+#footf>ul>li>a:hover{
+    color: red;
+}

@@ -10,3 +10,11 @@ topulinp.onblur=function(){
         alert('无此商品')
     }
 }
+
+var btn=document.getElementById('btn');
+window.onload=function(){
+    if(localStorage.getItem('name')!=''){
+        btn.innerHTML=localStorage.getItem('name')
+    }
+    
+}

@@ -40,6 +40,40 @@
 #topula>li:nth-of-type(2)>a{
     color: red;
 }
+/* --------------------图片变色-------------------------------- */
+img:hover{
+    animation: img 1.6s steps(2,end) infinite;
+}
+@keyframes img {
+    0% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 0.3;
+    }
+    30% {
+        opacity: 0.4;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    50% {
+       opacity: 0.6;
+    }
+   70%{
+       opacity: 0.5;
+   }
+   80%{
+       opacity: 0.4;
+   }
+   90%{
+       opacity: 0.3;
+   }
+     100% {
+        opacity: 0.2;
+     }
+
+}
 /* ---------------LOGO图片----------------------------------------------------------------------------------------------------- */
 #topulb{
     float: right;
