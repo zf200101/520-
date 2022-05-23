@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.box1_p1{
+    text-align: center;
+    font-size: 40px;
+    color: #474747;
+    margin: 20px 0;
+}
+
+
+.box_p2{
+    text-align: center;
+}
+.box_p2>span{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    /* background-color: aqua; */
+    line-height: 40px;
+    font-size: 18px;
+    color: #474747;
+}
+.box_p2>span:hover{
+    cursor: pointer;
+}
+.box_p2>.box1_sp{
+    border-bottom: 5px solid red;
+    color: red;
+}
+.box2{
+    width: 100%;
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+#ul_1{
+    width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#ul_1>li{
+    float: left;
+    width: 200px;
+    height: 220px;
+    /* background-color: aqua; */
+    margin: 20px 0;
+    margin-right: 50px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+    z-index: 9;
+}
+#ul_1>li:hover{
+    cursor: pointer;
+}
+.ul_1_p1{
+    width: 100%;
+    
+}
+.ul_1_p1>img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.ul_1_p2{
+    font-size: 14px;
+    color: #474747;
+    padding: 0 5px;
+}
+.ul_1_p3{
+    font-size: 14px;
+    color: #474747;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.ul_1_p3>span{
+    display: inline-block;
+    width: 30px;
+    
+}
+.ul_1_p3 img{
+    width: 12px;
+}
+.ys1{
+    width: 180px;
+    /* background-color: aqua; */
+    border: 1px solid #ccc;
+    border-radius: 0 0 3px 3px ;
+    height: 3px;
+    position: absolute;
+    bottom: -6px;
+    left: 8px;
+}
+.ys2{
+    width: 160px;
+    /* background-color: aqua; */
+    border: 1px solid #ccc;
+    border-radius: 0 0 3px 3px ;
+    height: 3px;
+    position: absolute;
+    bottom: -11px;
+    left: 20px;
+}
+
+.box3{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    color: red;
+}
+.box3>span{
+    display: inline-block;
+}
+.box3>span:hover{
+    cursor: pointer;
+}
+
+
