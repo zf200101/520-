@@ -37,12 +37,14 @@
     margin: 0 auto;
 }
 .login_1_div1>p{
-    overflow: hidden;
+height: 73px;
 }
 .login_1_div1>p>i{
     display: inline-block;
     width: 300px;
     height: 20px;
+    font-size: 14px;
+    text-indent: 20px;
     /* background-color: #555555; */
 }
 .login_1_div1>p>input{
@@ -121,4 +123,10 @@ button{
 button:hover{
     background-color: #FD301B;
     cursor: pointer;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
 }
