@@ -1,6 +1,19 @@
+var btn=document.getElementById('btn');
+window.onload=function(){
+    if(localStorage.getItem(name)!=null){
+        btn.innerHTML=localStorage.getItem(name)
+    }
+    
+}
+
+
+
+
+
+
 var topulbtn=document.getElementById('topulbtn');
 topulbtn.onclick=function(){
-    window.location.href='file:///C:/Users/Administrator/Desktop/%E6%9E%81%E6%9E%9C520%E5%BC%A0%E5%B8%86/520-/html/%E7%99%BB%E5%BD%95.html'
+    window.location.href='../登录.html'
 }
 var topulinp=document.getElementById('topulinp');
 topulinp.onblur=function(){
@@ -392,8 +405,17 @@ var kuwandd=document.getElementById('kuwandd');
 kuwandd.onclick=function(){
     window.location.href='../shiyong/试用-产品.html'
 }
-
-
+// --------------------------------点击加载更多--------------------------
+var jiazaiimg1=document.getElementById('jiazaiimg1');
+var jiazaiimg2=document.getElementById('jiazaiimg2');
+jiazaiimg1.onclick=function(){
+    jiazaiimg1.style.background='url(../../img/loading-icon.gif)'
+    jiazaiimg2.innerHTML='正在加载中'
+}
+jiazaiimg2.onclick=function(){
+    jiazaiimg1.style.background='url(../../img/loading-icon.gif)'
+    jiazaiimg2.innerHTML='正在加载中'
+}
 
 
 

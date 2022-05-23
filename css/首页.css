@@ -2534,6 +2534,208 @@
     background: url(../img/reply.png) no-repeat;
     background-size: cover;
 }
+/* -----------------------------------点击加载更多--------------------------- */
+#jiazai{
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 30px;
+}
+#jiazaiimg2{
+    display: inline-block;
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+    transform: translate(0px ,-7px);
+}
+#jiazaiimg1{
+    display: inline-block;
+    width: 20px ;
+    height: 20px;
+    background: url(../img/more.png) no-repeat;
+    cursor: pointer;
+}
+/* ----------------------------------------底部--------------------------------- */
+#foot{
+    width: 100%;
+    height: 400px;
+    background-color: #505050;
+}
+#footer{
+    width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+}
+#foota{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-top: 40px;
+}
+#foota>img{
+    width: 160px;
+    height: 160px;
+}
+/* ---------------------------footb------------------------------ */
+#footb{
+    width: 140px;
+    height: 160px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#footula>li:nth-of-type(1){
+    width: 100%;
+    height: 50px;
+    list-style: none;
+}
+#footula>li:nth-of-type(1)>img{
+    width: 100%;
+    height: 50px;
+}
+#footula>li:nth-of-type(2){
+    margin-top: 20px;
+    font-size: 12px;
+    list-style: none;
+    color: rgb(171, 168, 168);
+}
+#footula>li:nth-of-type(3){
+    font-size: 12px;
+    margin-top: 20px;
+    list-style: none;
+    color: rgb(171, 168, 168);
+}
+/* -----------------------------footc-------------------------------- */
+#footc{
+    width: 100px;
+    height: 160px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footc>ul>li:nth-of-type(1){
+    color: white;
+    font-size: 20px;
+    list-style: none;
+}
+#footc>ul>li:nth-of-type(2){
+    list-style: none;
+    margin-top: 40px;
+   
+}
+#footc>ul>li:nth-of-type(2)>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 174, 174);
+}
+#footc>ul>li:nth-of-type(2)>a:hover{
+    color: red;
+}
+#footc>ul>li:nth-of-type(3){
+    list-style: none;
+    
+}
+#footc>ul>li:nth-of-type(3)>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 174, 174);
+}
+#footc>ul>li:nth-of-type(3)>a:hover{
+    color: red;
+}
+/* ---------------------------footd---------------------------- */
+#footd{
+    width: 150px;
+    height: 220px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footd>p{
+    color: white;
+    font-size: 20px;
+}
+#footda{
+    width: 150px;
+    height: 170px;
+    margin-top: 20px;
+}
+#footda>ul>li{
+    list-style: none;
+    float: left;
+    width: 75px;
+}
+#footda>ul>li>a{
+    text-decoration: none;
+    color: #c3bfbf;
+    font-size: 12px;
+}
+#footda>ul>li>a:hover{
+    color: red;
+}
+/* ----------------------------------foote---------------------------- */
+#foote{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#foote>p{
+    color: white;
+    font-size: 20px;
+}
+#foote>ul{
+    margin-top: 20px;
+}
+#foote>ul>li{
+    list-style: none;
+}
+#foote>ul>li>a{
+    text-decoration: none;
+    color: #cac6c6;
+    font-size: 12px;
+}
+#foote>ul>li>a:hover{
+    color: red;
+}
+/* -------------------------------footf--------------------------- */
+#footf{
+    width: 170px;
+    height: 140px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#footf>p{
+    color: white;
+    font-size: 20px;
+}
+#footf>ul{
+    margin-top:20px;
+}
+#footf>ul>li{
+    list-style: none;
+}
+#footf>ul>li>a{
+    text-decoration: none;
+    color: #c3bfbf;
+    font-size: 12px;
+
+}
+#footf>ul>li>a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
