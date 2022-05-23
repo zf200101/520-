@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.kw {
+  width: 1000px;
+  height: 110px;
+  margin: 0 auto;
+}
+.kw h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.kuwan-pinlei {
+  text-align: center;
+  line-height: 80px;
+  font-size: 0px;
+}
+.kuwan-pinlei .red {
+  color: red;
+  border-bottom: 4px solid red;
+}
+.kuwan-pinlei a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #636363;
+  padding: 0 60px;
+}
+.pl {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F7F7;
+}
+.pl .shenghuo {
+  width: 1000px;
+  height: 600px;
+  background-color: #ffffff;
+  margin: 1px auto;
+  border-radius: 2%;
+  border-bottom: 30px solid #F7F7F7;
+  border-top: 20px solid #F7F7F7;
+}
+.pl .shenghuo p {
+  margin: 5px 0;
+}
+.pl .shenghuo p span {
+  border: 5px solid #FE5341;
+  background-color: #FE5341;
+}
+.pl .shenghuo .sh {
+  list-style: none;
+  display: inline-block;
+}
+.pl .shenghuo .sh li {
+  width: 134px;
+  height: 120px;
+  float: left;
+  color: #636363;
+  margin: 7px 16px;
+}
+.pl .shenghuo .sh li img {
+  padding: 10px 0;
+}
+.pl .shenghuo .sh li img:hover {
+  animation: img 0.6s steps(2, end) infinite;
+}
+@keyframes img {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.pl .shenghuo .sh li:hover {
+  color: red;
+}
+.pl .zt {
+  width: 1000px;
+  border-top: 1px dashed #636363;
+  margin: 30px 0;
+}
+.pl .zt a {
+  float: left;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 17px;
+  color: #636363;
+  text-decoration: none;
+}
+.pl .zt a:hover {
+  color: red;
+}
+.pl2 {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F7F7;
+}
+.pl2 .huli {
+  border-bottom: 30px solid #F7F7F7;
+  border-top: 1px solid #F7F7F7;
+  width: 1000px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  border-radius: 2%;
+}
+.pl2 .huli p {
+  margin: 5px 0;
+}
+.pl2 .huli p span {
+  border: 5px solid #FE5341;
+  background-color: #FE5341;
+}
+.pl2 .huli .hl {
+  list-style: none;
+  display: inline-block;
+}
+.pl2 .huli .hl li {
+  width: 134px;
+  height: 120px;
+  float: left;
+  color: #636363;
+  margin: 7px 16px;
+}
+.pl2 .huli .hl li img {
+  padding: 10px 0;
+}
+.pl2 .huli .hl li img:hover {
+  animation: img 0.6s steps(2, end) infinite;
+}
+@keyframes img {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.pl2 .huli .hl li:hover {
+  color: red;
+}
+.pl2 .zt {
+  width: 1000px;
+  border-top: 1px dashed #636363;
+  margin: 30px 0;
+}
+.pl2 .zt a {
+  float: left;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 17px;
+  color: #636363;
+  text-decoration: none;
+}
+.pl2 .zt a:hover {
+  color: red;
+}

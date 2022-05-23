@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.kw {
+  width: 1000px;
+  height: 170px;
+  margin: 0 auto;
+}
+.kw h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.kuwan-zuixin {
+  text-align: center;
+  line-height: 80px;
+  font-size: 0px;
+}
+.kuwan-zuixin .red {
+  color: red;
+  border-bottom: 4px solid red;
+}
+.kuwan-zuixin a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #636363;
+  padding: 0 60px;
+}
+.book {
+  width: 100%;
+  margin: 0 auto;
+}
+.book .zuixin {
+  width: 1408px;
+  list-style: none;
+  background-color: #f7f7f7;
+  margin: -55px auto;
+  padding-left: 110px;
+}
+.book .zuixin li {
+  width: 220px;
+  height: 250px;
+  border-radius: 5%;
+  border: 1px solid #636363;
+  display: inline-block;
+  margin: 20px 49px;
+  overflow: hidden;
+}
+.book .zuixin li img {
+  width: 221px;
+  height: 140px;
+  background-size: cover;
+}
+.book .zuixin li img:hover {
+  animation: img 0.6s steps(2, end) infinite;
+}
+@keyframes img {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.book .zuixin li .tu p {
+  font-size: 16px;
+}
+.book .zuixin li .tu p span {
+  font-size: 12px;
+  color: #636363;
+}
+.book .zuixin li .rs {
+  float: right;
+}
+.book .zuixin li .rs .xin {
+  padding-left: 17px;
+  background: url(../img/xin.png) no-repeat 1px 5px;
+  color: #636363;
+}
+.book .zuixin li .rs .xin:hover {
+  padding-left: 17px;
+  background: url(../img/heart_h.png) no-repeat 1px 5px;
+  color: #636363;
+}
+.book .zuixin li .rs .look {
+  padding-left: 17px;
+  background: url(../img/reply.png) no-repeat 1px 5px;
+  color: #636363;
+}
+.book .zuixin li span {
+  color: red;
+}
+.jz {
+  width: 120px;
+  height: -24px;
+  margin: 86px 701px;
+}
+.jz .jx {
+  color: red;
+  padding-left: 20px;
+  background: url(../img/more.png) no-repeat 1px 7px;
+}
+.jz .jc {
+  color: red;
+  padding-left: 20px;
+  background: url(../img/loading-icon.gif) no-repeat -2px 1px;
+}
