@@ -110,6 +110,16 @@ img:hover{
     height: 300px;
     text-align: right;
     margin: 0px auto;
+    animation: yidong 2s ;
+}
+@keyframes yidong{
+    0%{
+        transform: translate(100px,-100px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 #topba>p:nth-of-type(1){
     font-size: 35px;
