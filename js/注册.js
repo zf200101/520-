@@ -134,6 +134,9 @@ pas2.onblur =function(){
 var btn = document.getElementById('btn');
 btn.onclick =function(){
     if(str.test(phone.value) && imga.value == 'r2b7' && yzm.value=='0728' && str2.test(user.value) && str3.test(pas1.value) && pas1.value==pas2.value){
+        localStorage.setItem('name',user.value)
+        localStorage.setItem('password',pas1.value)
+        localStorage.setItem('phone',phone.value)
         alert('注册成功')
         window.location.href = "../html/登录.html"
     }else{
