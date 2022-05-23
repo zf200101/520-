@@ -1,7 +1,7 @@
 var btn=document.getElementById('btn');
 window.onload=function(){
-    if(localStorage.getItem(name)!=null){
-        btn.innerHTML=localStorage.getItem(name)
+    if(localStorage.getItem('name')!=''){
+        btn.innerHTML=localStorage.getItem('name')
     }
     
 }
