@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* --------------------顶部------------------------------------------------------------------------------------------------ */
+#top{
+    width: 1000px;
+    height: 80px;
+    margin: 0px auto;
+}
+#topula{
+    list-style: none;
+    float: left;
+}
+#topula>li{
+    float: left;
+    font-size: 20px;
+    margin-right: 50px;
+}
+#topula>li:nth-of-type(1){
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+}
+#topula>li:nth-of-type(1)>img{
+    width: 150px;
+    height: 60px;
+}
+#topula>li>a{
+    text-decoration: none;
+    color: black;
+}
+#topula>li>a:hover{
+    color: red;
+}
+#topula>li{
+    height: 80px;
+    line-height: 80px;
+}
+#topula>li:nth-of-type(5)>a{
+    color: red;
+}
+#topulb{
+    float: right;
+
+}
+#topulb>li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#topulb>li:nth-of-type(1)>input{
+    width: 200px;
+    height: 30px;
+}
+#topulbtn{
+    width: 50px;
+    height: 30px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+/* -------------------------------阴影------------------------------ */
+#yinying{
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(white,rgb(212, 210, 210));
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+/* ---------------------------------免费试用-------------------------------------- */
+#mianfei{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+}
+/* ---------------------------------------------------------------- */
+#mianfeia{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#mianfeia>span:nth-of-type(1){
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    color: red;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-bottom: 5px solid red;
+}
+#mianfeia>span:nth-of-type(2){
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(124, 120, 120);
+}
+/* -------------------------------------free-------------------------- */
+#free{
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(212, 209, 209);
+    text-align: center;
+}
+#free>span:nth-of-type(1){
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+#free>span:nth-of-type(2){
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(145, 141, 141);
+    cursor: pointer;
+}
+#free>span:nth-of-type(3){
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(145, 141, 141);
+    cursor: pointer;
+}
+#free>span:nth-of-type(4){
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(145, 141, 141);
+    cursor: pointer;
+}
+/* -----------------------------------hui------------------------- */
+.hui{
+    width: 100%;
+    height: 1600px;
+    background-color: #f7f7f7;
+}
+/* -------------------------------------------------------------- */
+.use{
+    width: 1000px;
+    height: 290px;
+    list-style: none;
+    margin: 0px auto;
+}
+.use> .useli{
+    width: 220px;
+    height: 330px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+.useli>img{
+    width: 220px;
+    height: 130px;
+    border-radius: 10px 10px 0px 0px;
+}
+.useli>img:hover{
+    animation: bai 1s  infinite;
+}
+@keyframes bai{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0.9;
+    }
+    20%{
+        opacity: 0.8;
+    }
+    30%{
+        opacity: 0.7;
+    }
+    40%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+.useli>p{
+   margin: 10px 0px;
+}
+.usespan{
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 1px solid rgb(157, 154, 154);
+    color: rgb(156, 152, 152);
+}
+.red{
+    color: red;
+}
+.ding{
+    width: 40px;
+    height: 20px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+/* ----------------------------------------------------- */
+/* ----------------------------------------底部--------------------------------- */
+#foot{
+    width: 100%;
+    height: 400px;
+    background-color: #505050;
+}
+#footer{
+    width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+}
+#foota{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-top: 40px;
+}
+#foota>img{
+    width: 160px;
+    height: 160px;
+}
+/* ---------------------------footb------------------------------ */
+#footb{
+    width: 140px;
+    height: 160px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#footula>li:nth-of-type(1){
+    width: 100%;
+    height: 50px;
+    list-style: none;
+}
+#footula>li:nth-of-type(1)>img{
+    width: 100%;
+    height: 50px;
+}
+#footula>li:nth-of-type(2){
+    margin-top: 20px;
+    font-size: 12px;
+    list-style: none;
+    color: rgb(171, 168, 168);
+}
+#footula>li:nth-of-type(3){
+    font-size: 12px;
+    margin-top: 20px;
+    list-style: none;
+    color: rgb(171, 168, 168);
+}
+/* -----------------------------footc-------------------------------- */
+#footc{
+    width: 100px;
+    height: 160px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footc>ul>li:nth-of-type(1){
+    color: white;
+    font-size: 20px;
+    list-style: none;
+}
+#footc>ul>li:nth-of-type(2){
+    list-style: none;
+    margin-top: 40px;
+   
+}
+#footc>ul>li:nth-of-type(2)>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 174, 174);
+}
+#footc>ul>li:nth-of-type(2)>a:hover{
+    color: red;
+}
+#footc>ul>li:nth-of-type(3){
+    list-style: none;
+    
+}
+#footc>ul>li:nth-of-type(3)>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 174, 174);
+}
+#footc>ul>li:nth-of-type(3)>a:hover{
+    color: red;
+}
+/* ---------------------------footd---------------------------- */
+#footd{
+    width: 150px;
+    height: 220px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footd>p{
+    color: white;
+    font-size: 20px;
+}
+#footda{
+    width: 150px;
+    height: 170px;
+    margin-top: 20px;
+}
+#footda>ul>li{
+    list-style: none;
+    float: left;
+    width: 75px;
+}
+#footda>ul>li>a{
+    text-decoration: none;
+    color: #c3bfbf;
+    font-size: 12px;
+}
+#footda>ul>li>a:hover{
+    color: red;
+}
+/* ----------------------------------foote---------------------------- */
+#foote{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#foote>p{
+    color: white;
+    font-size: 20px;
+}
+#foote>ul{
+    margin-top: 20px;
+}
+#foote>ul>li{
+    list-style: none;
+}
+#foote>ul>li>a{
+    text-decoration: none;
+    color: #cac6c6;
+    font-size: 12px;
+}
+#foote>ul>li>a:hover{
+    color: red;
+}
+/* -------------------------------footf--------------------------- */
+#footf{
+    width: 170px;
+    height: 140px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#footf>p{
+    color: white;
+    font-size: 20px;
+}
+#footf>ul{
+    margin-top:20px;
+}
+#footf>ul>li{
+    list-style: none;
+}
+#footf>ul>li>a{
+    text-decoration: none;
+    color: #c3bfbf;
+    font-size: 12px;
+
+}
+#footf>ul>li>a:hover{
+    color: red;
+}
